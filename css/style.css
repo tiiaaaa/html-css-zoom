@@ -26,7 +26,7 @@ main{
 
 footer{
     height: 10vh;
-    background-color: fuchsia;
+    background-color: rgb(53, 51, 51);
 }
 
 /* Main */
@@ -35,15 +35,16 @@ main div.container{
     width: 92%;
     height: 95%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: flex-start;
     overflow-y: auto;
     background-color: gold;
 }
 
 main .flex-items{
-    width: 200px;
+    width: 195px;
     height: 130px;
+    margin-right: 5px;
     margin-bottom: 0.8rem;
     background-color: hotpink;
     border: 1px solid black;
@@ -66,14 +67,46 @@ div.flex-items div.information{
 }
 
 /* Footer */
+div#end-button{
+    background-color: rgba(200, 200, 200, 0.4);
+}
+
+div#end-button p{
+    color: red;
+}
+
 nav{
     height: 100%;
+    margin: 0 1rem;
     justify-content: space-between;
 }
 
 nav div.nav-item{
     height: 100%;
-    width: 150px;
     align-items: center;
-    background-color: cornflowerblue;
+}
+
+div.nav-item ul{
+    align-items: center;
+}
+
+div.nav-item ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 0.6rem 0.5rem;
+    margin-right: 0.2rem;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a i{
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+i.fa-chevron-up{
+    font-size: 0.7rem;
 }
