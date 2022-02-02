@@ -4,3 +4,56 @@
     padding: 0;
 }
 
+.flex{
+    display: flex;
+}
+
+header{
+    height: 6vh;
+    background-color: aqua;
+}
+
+main{
+    height: 84vh;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+footer{
+    height: 10vh;
+    background-color: fuchsia;
+}
+
+/* Main */
+main div.container{
+    width: 92%;
+    height: 95%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow-y: auto;
+    background-color: gold;
+}
+
+main .flex-items{
+    width: 200px;
+    height: 130px;
+    margin-bottom: 0.8rem;
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+
+/* Footer */
+nav{
+    height: 100%;
+    justify-content: space-between;
+}
+
+nav div.nav-item{
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    background-color: cornflowerblue;
+}
