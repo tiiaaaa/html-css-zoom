@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.position{
+    position: relative;
+}
+
 header{
     height: 6vh;
     background-color: aqua;
@@ -26,6 +30,7 @@ footer{
 }
 
 /* Main */
+
 main div.container{
     width: 92%;
     height: 95%;
@@ -44,6 +49,21 @@ main .flex-items{
     border: 1px solid black;
 }
 
+img.flex-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.flex-items div.information{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.4rem 0.3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 0.9rem;
+}
 
 /* Footer */
 nav{
